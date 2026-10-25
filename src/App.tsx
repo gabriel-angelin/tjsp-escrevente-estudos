@@ -170,7 +170,7 @@ export function App() {
         totalTopicsCount={allTopicsList.length}
       />
 
-      <main className="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-6">
+      <main className="flex-1 max-w-7xl w-full mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 pb-24 md:pb-8">
         {currentView === 'cronograma' && (
           <CronogramaView
             weeks={weeksPlanData}
@@ -218,7 +218,7 @@ export function App() {
         activeProfileName={activeProfile.profileName}
       />
 
-      <footer className="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500">
+      <footer className="bg-white border-t border-slate-200 py-4 sm:py-6 text-center text-xs text-slate-500 mb-16 md:mb-0">
         <p>TJ-SP Escrevente Técnico Judiciário (Edital 02/2026 - VUNESP) • Projeto de Estudos Gabriel & Thalia</p>
         <p className="mt-1 text-[11px] text-slate-400">
           Dados persistidos localmente no navegador (LocalStorage). Use o botão de download no topo para salvar cópias de segurança JSON.
