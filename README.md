@@ -1,7 +1,8 @@
 # ⚖️ TJ-SP Escrevente Técnico Judiciário 2026/2027
 ### Plataforma de Estudos Centralizada & Métricas do Casal (Gabriel & Thalia)
 
-Aplicação web desenvolvida para a preparação de **Gabriel e Thalia** para o concurso de **Escrevente Técnico Judiciário do Tribunal de Justiça do Estado de São Paulo (Edital 02/2026 - VUNESP)**.
+🌐 **Deploy no ar na Vercel**: [https://prompt-cypress-s9kecub.tmp.now](https://prompt-cypress-s9kecub.tmp.now)  
+🔗 **Repositório GitHub**: [https://github.com/gabriel-angelin/tjsp-escrevente-estudos](https://github.com/gabriel-angelin/tjsp-escrevente-estudos)
 
 ---
 
