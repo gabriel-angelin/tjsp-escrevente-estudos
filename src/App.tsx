@@ -219,7 +219,7 @@ export function App() {
       />
 
       <footer className="bg-white border-t border-slate-200 py-6 text-center text-xs text-slate-500">
-        <p>TJ-SP Escrevente Técnico Judiciário (Edital 02/2026 - VUNESP) • Projeto de Estudos Gabriel & Esposa</p>
+        <p>TJ-SP Escrevente Técnico Judiciário (Edital 02/2026 - VUNESP) • Projeto de Estudos Gabriel & Thalia</p>
         <p className="mt-1 text-[11px] text-slate-400">
           Dados persistidos localmente no navegador (LocalStorage). Use o botão de download no topo para salvar cópias de segurança JSON.
         </p>

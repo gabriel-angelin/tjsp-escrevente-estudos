@@ -1,16 +1,15 @@
 # ⚖️ TJ-SP Escrevente Técnico Judiciário 2026/2027
-### Plataforma de Estudos Centralizada & Métricas do Casal (Gabriel & Esposa)
+### Plataforma de Estudos Centralizada & Métricas do Casal (Gabriel & Thalia)
 
-Aplicação web desenvolvida para a preparação de **Gabriel e sua esposa** para o concurso de **Escrevente Técnico Judiciário do Tribunal de Justiça do Estado de São Paulo (Edital 02/2026 - VUNESP)**.
+Aplicação web desenvolvida para a preparação de **Gabriel e Thalia** para o concurso de **Escrevente Técnico Judiciário do Tribunal de Justiça do Estado de São Paulo (Edital 02/2026 - VUNESP)**.
 
 ---
 
 ## 🌟 Principais Funcionalidades
 
-1. **Separação de Perfis (Gabriel | Esposa)**:
+1. **Separação de Perfis (Gabriel | Thalia)**:
    - Alternador de perfil com um clique na barra superior.
    - Cada perfil possui seu próprio histórico de horas líquidas, checklist de tópicos lidos, registro de questões resolvidas e taxa de acerto por matéria.
-   - Nome editável para personalização da esposa.
 
 2. **Hub de Conteúdo Centralizado (Sem necessidade de materiais externos)**:
    - **Vade Mecum Digital Interativo**: Artigos expressos do Código Penal, CPP, CPC, CF/88, Lei 10.261/68 (Estatuto SP), Lei 8.429/92 (Improbidade atualizada), Normas da Corregedoria (NSCGJ) e a grande novidade: **Resolução TJSP nº 963/2025 (Sistema eproc)**.

@@ -105,7 +105,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               }`}
             >
               <Users className="w-4 h-4 text-rose-500" />
-              <span>{partnerProfileData.profileName === 'Gabriel' ? 'Esposa' : activeProfileData.profileName}</span>
+              <span>{activeProfileKey === 'esposa' ? activeProfileData.profileName : partnerProfileData.profileName}</span>
             </button>
 
             {isEditingName ? (

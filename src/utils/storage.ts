@@ -14,7 +14,7 @@ const defaultUserStats = (name: string): UserStats => ({
 const defaultStorage: AppStorage = {
   profiles: {
     gabriel: defaultUserStats('Gabriel'),
-    esposa: defaultUserStats('Esposa'),
+    esposa: defaultUserStats('Thalia'),
   },
   activeProfile: 'gabriel',
 };

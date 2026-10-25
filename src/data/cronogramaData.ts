@@ -317,7 +317,7 @@ export const weeksPlanData: WeekPlan[] = [
         subject1: 'Leitura Mútua',
         subject2: 'Troca de Redações e Feedback',
         topicIds: [],
-        taskDescription: 'Gabriel e Esposa lêem a redação um do outro e apontam melhorias nos critérios A, B, C, D.',
+        taskDescription: 'Gabriel e Thalia lêem a redação um do outro e apontam melhorias nos critérios A, B, C, D.',
         timeMinutes: 45
       }
     ]
