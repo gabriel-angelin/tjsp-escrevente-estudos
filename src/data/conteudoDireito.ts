@@ -268,6 +268,33 @@ V - certificar a tempestividade dos recursos e atos.
       'Tutela de evidência NÃO precisa de perigo de dano.'
     ]
   },
+  {
+    id: 'cpc-juizados',
+    title: 'Juizados Especiais Cíveis (Lei 9.099/95) e Fazenda Pública (Lei 12.153/09)',
+    subjectId: 'cpc',
+    subjectName: 'Processo Civil / Juizados',
+    category: 'direito',
+    bloc: 'Bloco II',
+    importance: 'Alta',
+    summary: 'Competência até 40 salários mínimos no JEC e até 60 salários na Fazenda Pública. Gratuidade em 1º grau, critérios da informalidade e celeridade.',
+    keyArticles: 'Lei 9.099/95 (arts. 3º ao 19) e Lei Federal 12.153/2009.',
+    fullContent: `
+### Juizados Especiais Cíveis (JEC - Lei 9.099/95):
+- **Critérios Orientadores (Art. 2º)**: Oralidade, simplicidade, informalidade, economia processual e celeridade.
+- **Competência em Razão do Valor (Art. 3º)**: Causas cujo valor não exceda a **40 vezes o salário mínimo**.
+  - Até **20 salários mínimos**: As partes podem comparecer **sem advogado**.
+  - De **20 a 40 salários mínimos**: A assistência de advogado é **obrigatória**.
+- **Custas e Honorários (Art. 54 e 55)**: Em primeiro grau, o acesso ao Juizado Especial independerá do pagamento de custas, taxas ou despesas. Não há condenação em honorários advocatícios no 1º grau (salvo má-fé).
+
+### Juizados Especiais da Fazenda Pública (Lei 12.153/2009):
+- Competência absoluta para causas de até **60 salários mínimos** de interesse dos Estados, Distrito Federal e Municípios.
+- Não há prazo diferenciado (em dobro) para a Fazenda Pública nos Juizados Especiais da Fazenda Pública!
+    `,
+    vunespTips: [
+      'No JEC, causas de até 20 salários não exigem advogado; acima de 20 até 40 exigem.',
+      'Na Fazenda Pública o teto é 60 salários mínimos.'
+    ]
+  },
 
   // DIREITO PROCESSUAL PENAL
   {
@@ -307,6 +334,30 @@ V - certificar a tempestividade dos recursos e atos.
       'Atenção ao art. 366: suspende processo E prescrição.'
     ]
   },
+  {
+    id: 'cpp-jecrim',
+    title: 'Juizados Especiais Criminais (JECRIM - Lei 9.099/95 Arts. 60 a 89)',
+    subjectId: 'cpp',
+    subjectName: 'Processo Penal / JECRIM',
+    category: 'direito',
+    bloc: 'Bloco II',
+    importance: 'Alta',
+    summary: 'Infrações de menor potencial ofensivo, termo circunstanciado, composição dos danos civis, transação penal e suspensão condicional do processo.',
+    keyArticles: 'Lei 9.099/95 (arts. 60 a 83; 88 e 89).',
+    fullContent: `
+### JECRIM - Lei 9.099/1995:
+- **Infrações de Menor Potencial Ofensivo (Art. 61)**: As contravenções penais e os crimes a que a lei comine pena máxima **não superior a 2 anos**, cumulada ou não com multa.
+- **Não se lavra Inquérito Policial**: Lavra-se apenas **Termo Circunstanciado (TC)** e encaminha-se imediatamente ao Juizado.
+- **Institutos Despenalizadores**:
+  1. **Composição dos Danos Civis (Art. 74)**: Homologada pelo juiz, acarreta a renúncia tácita ao direito de queixa ou de representação (extingue a punibilidade).
+  2. **Transação Penal (Art. 76)**: Proposta pelo MP de aplicação imediata de pena restritiva de direitos ou multas. Não gera reincidência nem certidão de antecedentes criminais. Só pode ser concedida 1 vez a cada 5 anos.
+  3. **Suspensão Condicional do Processo (SURSIS Processual - Art. 89)**: Nos crimes em que a pena mínima cominada for igual ou inferior a 1 ano, o MP pode propor a suspensão do processo por 2 a 4 anos.
+    `,
+    vunespTips: [
+      'Menor potencial ofensivo = pena máxima de até 2 anos.',
+      'Sursis processual (art. 89) = pena mínima igual ou inferior a 1 ano.'
+    ]
+  },
 
   // DIREITO ADMINISTRATIVO & LEGISLAÇÃO INTERNA
   {
@@ -344,6 +395,30 @@ VI - cassação de aposentadoria ou disponibilidade.
     vunespTips: [
       'Posse: 30 dias prorrogável por 30. Exercício: 30 dias.',
       'Suspensão disciplinar: limite máximo de 90 dias.'
+    ]
+  },
+  {
+    id: 'adm-improbidade',
+    title: 'Lei de Improbidade Administrativa (Lei Federal 8.429/1992 Atualizada)',
+    subjectId: 'adm',
+    subjectName: 'Direito Administrativo',
+    category: 'direito',
+    bloc: 'Bloco II',
+    importance: 'Altíssima',
+    summary: 'Apenas atos dolosos caracterizam improbidade (fim da modalidade culposa). Artigos 9º, 10 e 11, sanções e prescrição de 8 anos.',
+    keyArticles: 'Lei Federal 8.429/1992 com alterações da Lei Federal 14.230/2021.',
+    fullContent: `
+### Princípios da Nova LIA (Lei 14.230/2021):
+- **Exigência Inegociável de DOLO**: Não existe mais ato de improbidade culposo no ordenamento jurídico brasileiro! O dolo é a vontade livre e consciente de alcançar o resultado ilícito.
+- **Espécies de Atos de Improbidade**:
+  1. **Art. 9º - Enriquecimento Ilícito**: Obter qualquer tipo de vantagem patrimonial indevida em razão do cargo. Sanção mais rigorosa (perda de bens, perda da função pública, suspensão de direitos políticos até 14 anos, multa correspondente ao valor do acréscimo).
+  2. **Art. 10 - Prejuízo ao Erário**: Qualquer ação ou omissão dolosa que enseje perda patrimonial efetiva, desvio, apropriação ou dilapidação do patrimônio público. Suspensão de direitos políticos até 12 anos.
+  3. **Art. 11 - Atentado contra os Princípios da Administração Pública**: Rol taxativo (apenas as condutas expressamente descritas nos incisos do art. 11 caracterizam o tipo!).
+- **Prescrição (Art. 23)**: A ação para a aplicação das sanções prescreve em **8 anos**, contados a partir da data da ocorrência do fato.
+    `,
+    vunespTips: [
+      'Cuidado com pegadinha antiga: atos de improbidade culposos NÃO existem mais.',
+      'O rol do art. 11 (princípios) é taxativo, não meramente exemplificativo.'
     ]
   },
   {

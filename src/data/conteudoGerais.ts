@@ -120,8 +120,80 @@ export const topicsGerais: TopicItem[] = [
       'Cuidado: "ao passo que" é proporcional/contrastivo; "a despeito de" é concessivo.'
     ]
   },
+  {
+    id: 'port-pontuacao',
+    title: 'Português: Pontuação e Emprego da Vírgula',
+    subjectId: 'port',
+    subjectName: 'Língua Portuguesa',
+    category: 'portugues',
+    bloc: 'Bloco I',
+    importance: 'Altíssima',
+    summary: 'A regra número 1 da pontuação: proibição de separar sujeito do predicado ou verbo do seu complemento direto.',
+    fullContent: `
+### Regras de Emprego da Vírgula:
+1. **O que NUNCA fazer**:
+   - Nunca separar Sujeito de Verbo por vírgula.
+   - Nunca separar Verbo de seu Objeto por vírgula.
+2. **Casos Obrigatórios de Vírgula**:
+   - Isolar vocativo: "Senhor Juiz, requer-se o prazo".
+   - Isolar aposto explicativo: "O TJSP, maior tribunal do país, adotou o eproc".
+   - Isolar adjunto adverbial deslocado: "Ontem pela manhã, o réu compareceu".
+   - Entre orações coordenadas assindéticas ou com conjunção adversativa (*, porém; , contudo*).
+    `,
+    vunespTips: [
+      'Identifique sempre o sujeito da oração antes de marcar qualquer alternativa com vírgula.'
+    ]
+  },
+  {
+    id: 'port-colocacao',
+    title: 'Português: Colocação Pronominal (Próclise, Ênclise e Mesóclise)',
+    subjectId: 'port',
+    subjectName: 'Língua Portuguesa',
+    category: 'portugues',
+    bloc: 'Bloco I',
+    importance: 'Alta',
+    summary: 'Fatores atrativos de próclise e regras proibitivas da ênclise no início de frases.',
+    fullContent: `
+### Posições dos Pronomes Oblíquos Átonos (me, te, se, nos, vos, o, a, lhe):
+- **Próclise (Pronome antes do verbo)**: Obrigatória na presença de palavras atrativas:
+  1. Palavras com sentido negativo (*não, nunca, jamais, ninguém*);
+  2. Pronomes relativos (*que, quem, cujo, onde*);
+  3. Conjunções subordinativas (*embora, porque, se, quando*);
+  4. Pronomes indefinidos (*alguém, todos, muitos*);
+  5. Advérbios (*sempre, hoje, aqui*).
+- **Ênclise (Pronome depois do verbo)**: Obrigatória no início da oração ("Disseram-me a verdade" - proibido "Me disseram").
+- **Mesóclise (Pronome no meio do verbo)**: Verbos no Futuro do Presente ou Futuro do Pretérito sem palavra atrativa ("Apresentar-se-á o réu").
+    `,
+    vunespTips: [
+      'Nunca inicie frase com pronome oblíquo átono na norma culta da VUNESP.'
+    ]
+  },
 
   // INFORMÁTICA (BLOCO III)
+  {
+    id: 'info-windows',
+    title: 'Informática: MS-Windows 10 e 11, Pastas, Janelas e Atalhos',
+    subjectId: 'info',
+    subjectName: 'Informática',
+    category: 'gerais',
+    bloc: 'Bloco III',
+    importance: 'Alta',
+    summary: 'Operações com arquivos e pastas, teclas de atalho essenciais do Windows, Lixeira e Gerenciador de Tarefas.',
+    fullContent: `
+### Recursos do Sistema Operacional:
+- **Atalhos Vitais do Windows**:
+  - \`Win + E\`: Abre o Explorador de Arquivos.
+  - \`Win + L\`: Bloqueia o computador / troca de usuário.
+  - \`Win + D\`: Mostra / oculta a Área de Trabalho.
+  - \`Ctrl + Shift + Esc\`: Abre diretamente o Gerenciador de Tarefas.
+  - \`Shift + Delete\`: Exclui arquivo permanentemente (sem enviar para a Lixeira!).
+- **Lixeira**: Armazena temporariamente arquivos locais. Arquivos excluídos de pen drives ou unidades de rede NÃO vão para a Lixeira (são excluídos em definitivo).
+    `,
+    vunespTips: [
+      '\`Shift + Delete\` exclui sem passar pela lixeira.',
+      'Arquivos em pendrive ou rede não passam pela lixeira local.'
+    ]
+  },
   {
     id: 'info-excel',
     title: 'Informática: MS-Excel 365 (Fórmulas, Funções e Atalhos)',
@@ -291,6 +363,29 @@ export const topicsGerais: TopicItem[] = [
     `,
     vunespTips: [
       'A avaliação é BIOPSICOSSOCIAL e feita por equipe MULTIPROFISSIONAL. A Vunesp adora colocar que a avaliação é feita por "médico perito isolado", o que é falso.'
+    ]
+  },
+  {
+    id: 'atualidades-2026',
+    title: 'Atualidades: Fatos a Partir do 1º Semestre de 2026',
+    subjectId: 'pcd',
+    subjectName: 'Atualidades',
+    category: 'gerais',
+    bloc: 'Bloco III',
+    importance: 'Média',
+    summary: 'Acontecimentos políticos, econômicos, sociais, culturais e ambientais nacionais e internacionais a partir do 1º semestre de 2026.',
+    fullContent: `
+### Guia de Acompanhamento de Atualidades:
+O edital estabelece: *Questões relacionadas a fatos políticos, econômicos, sociais e culturais, nacionais e internacionais, ocorridos a partir do 1° semestre de 2026, divulgados na mídia local e/ou nacional*.
+
+#### Eixos Frequentes da VUNESP:
+1. **Meio Ambiente e Sustentabilidade**: Mudanças climáticas, acordos internacionais sobre transição energética, queimadas e preservação dos biomas brasileiros.
+2. **Geopolítica Internacional**: Conflitos e acordos de paz internacionais, blocos econômicos (G20, BRICS, Mercosul e União Europeia).
+3. **Cenário Nacional**: Reformas legislativas, políticas públicas de combate à fome, inclusão social e marcos da infraestrutura brasileira.
+4. **Tecnologia**: Regulação de inteligência artificial e proteção de dados.
+    `,
+    vunespTips: [
+      'A Vunesp cobra fatos jornalísticos objetivos (nomes de tratados, países envolvidos, locais de cúpulas e conferências).'
     ]
   }
 ];
